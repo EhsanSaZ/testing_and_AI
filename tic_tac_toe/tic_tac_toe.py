@@ -17,9 +17,6 @@ class Board:
     dimensions = 3
     spaces = [[' ', ' ', ' '], [' ', ' ', ' '], [' ', ' ', ' ']]
 
-    # def __init__(self, dimensions=3):
-    #     self.dimensions = dimensions
-    #     TODO: dynamically size the 2D array
 
     def __str__(self):
         board_string = ""
